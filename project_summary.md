@@ -1,8 +1,8 @@
 # Project Title
-Insert the name of your project
+The ShadowEngine
 
 ## Authors
-- Insert main author name, surname, github account
+- Ian Grant, iboy
 - Insert other author(s) name, surname, github account (one per list element)
 
 ## Description
