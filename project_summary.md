@@ -1,13 +1,19 @@
 # Project Title
-The ShadowEngine
+The ShadowEngine: A Tool for Digital Puppetry and Collaborative Co-Creation
 
 ## Authors
-- Ian Grant, iboy
-- Insert other author(s) name, surname, github account (one per list element)
+- Ian Grant, [iboy](https://github.com/iboy "iboy on github") on github
 
 ## Description
-Insert a description containing about 100 to 150 words, including your motivation and the meaning behind your idea and execution. The Judges will be keen to know how your idea pushes the boundaries of code and technology. 
+The ShadowEngine is the latest iteration of a digital puppetry system, enabling real-time character, cinematic and scenographic control over a shadow theatre simulation. The primary aim is to create a performance animation system where live collaborative co-creation and story-making takes place.
+### Kinetic Objects and Expressive Movement
+I am motivated by a fascination with interactive, kinetic and expressive performing objects and find game engines and creative coding platforms facilitate my exploration of many dimensions of real-time animation, including:  soft and rigid body physics, spring systems,  blended animation, the use of physical controllers and other sensors to create virtual and physical movement.
 
+Current control experiments include multiple Kinect and Leap Motion control, multiple touch controllers (iOS or Android) allowing as many people as devices and the WIFI / OSC network allows to simultaneous perform with virtual objects and direct the live animation. For me, 
+
+Iterations include work in a variety of creative coding environments: Quartz Composer, OpenFrameworks and Animata , playing with physics libraries like Bullet, Box2D and computer vision libraries (OpenCV). In the latest Unity prototype I've experimented incorporating generative environments into the shadowscapes -- including other open source creative coding experiments --  more of that in the blog. 
+
+The latest iteration includes archival shadow puppets (Karagöz) scanned at a research residency at the Institut de la Marionnette, Charleville, France.
 ## Link to Prototype
 NOTE: If your project lives online you can add one or more links here. Make sure you have a stable version of your project running before linking it.
 
