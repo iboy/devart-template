@@ -71,12 +71,11 @@ The code below sets the default state of a multi touch controller interface (lik
 
 ## Links to External Libraries
  
+[Soulwire's Recursion Toy](http://soulwire.co.uk/data/experiments/recursion-toy/ "Soulwires Recursion Toy")
+[Soulwires Recursion Toy on GitHub](https://github.com/soulwire/Recursion-Toy "Soulwires Recursion Toy on GitHub")
 
-NOTE: You can also use this space to link to external libraries or Github repositories you used on your project.
-[Soulwires Recursion Toy](http://soulwire.co.uk/data/experiments/recursion-toy/)
-[](https://github.com/soulwire/Recursion-Toy)
-[Example Link](http://www.google.com "Example Link")
-
+TODO
+Assets; OSC.net; Unity OSC;
 ## Images & Videos
 NOTE: For additional images you can either use a relative link to an image on this repo or an absolute link to an externally hosted image.
 
