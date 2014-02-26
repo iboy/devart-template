@@ -4,14 +4,25 @@
             "insert apis"
         ],
         "platforms": [
-            "insert platforms"
+            "ios",
+			"android",
+			"macos",
+			"web",
+			"google native client"
         ],
         "toolkits": [
             "unity",
-			"OSC"
+			"OSC",
+			"kinect",
+			"leap",
+			"opencv"
         ]
     },
     "themes": [
-        "insert themes"
+        "shadows",
+		"movement",
+		"animation",
+		"collaboration"
+		
     ]
 }
