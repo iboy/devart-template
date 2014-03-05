@@ -1,10 +1,13 @@
-# Project Title
-The ShadowEngine: A Tool for Digital Puppetry and Collaborative Co-Creation
+# The ShadowEngine
+A Tool for Digital Puppetry and Collaborative Co-Creation
 
 ## Authors
 - Ian Grant, [iboy](https://github.com/iboy "iboy on github") on github
 
 ## Description
+
+>"Were it not for shadows, there would be no beauty." Tanizaki, *In Praise of Shadows*.
+
 The ShadowEngine is the latest iteration of a digital puppetry system, enabling real-time character, cinematic and scenographic control over a shadow theatre simulation. The primary aim is to create a performance animation system where live collaborative co-creation of expressive movement and story-making takes place. It can be present in a number of different configurations: as an installation, a performance or a workshop experience.
 ### Kinetic Objects and Expressive Movement
 I am motivated by a fascination with animation: especially interactive, kinetic and expressive performing objects (puppets). Game-engines and creative coding platforms facilitate novel means to explore multiple dimensions of real-time animation, including:  soft and rigid body physics, spring systems, collisions, blended animation, the use of physical controllers and other sensors to create virtual and physical movement.
@@ -76,9 +79,9 @@ The code below sets the default state of a multi touch controller interface (lik
 
 TODO
 Assets; OSC.net; Unity OSC;
-## Images & Videos
+## Images & Videos ##
+
+
 NOTE: For additional images you can either use a relative link to an image on this repo or an absolute link to an externally hosted image.
 
 ![Example Image](project_images/cover.jpg?raw=true "Example Image")
-
-https://www.youtube.com/watch?v=30yGOxJJ2PQ
