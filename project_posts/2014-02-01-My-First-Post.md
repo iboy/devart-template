@@ -1,5 +1,6 @@
-Insert a description to describe your update to document your creative process. The Commissioned Interactive Artists will be doing the same so you can reference their Project Posts.
+#Motivation
+Body
 
-![Example Image](../project_images/cover.jpg?raw=true "Example Image")
+Body
 
-https://www.youtube.com/watch?v=30yGOxJJ2PQ
+Image
