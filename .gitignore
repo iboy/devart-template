@@ -1,1 +1,43 @@
-.DS_Store
+void Start() {
+
+
+    /* SET DEFAULTS ON OSC INTERFACE  THIS SHOULD BE REFACTORED INTO A CONTROLLER*/
+    // create a transmitter to sync the UI
+
+    transmitter = new OSCTransmitter(SendToIPAddress, port);
+    transmitter.Connect();
+    connected = true;
+    //myMessage = new OSCMessage("/4" ); // switch to the fourth tab in TouchOSC
+    //transmitter.Send(myMessage);
+    myMessage = new OSCMessage("/3/CameraZoomOrtho", 2.61f ); // switch to the fourth tab in TouchOSC
+    transmitter.Send(myMessage);
+    myMessage = new OSCMessage("/3/FXSunShaftsIntensity", 4.0f ); // switch to the fourth tab in TouchOSC
+    transmitter.Send(myMessage);
+    myMessage = new OSCMessage("/3/FXVignetteSize", 5.08f ); 
+    transmitter.Send(myMessage);
+    myMessage = new OSCMessage("/3/FXVignetteBlur", 1.0f ); 
+    transmitter.Send(myMessage);
+    myMessage = new OSCMessage("/3/FXVignetteChromatic", 1.98f ); 
+    transmitter.Send(myMessage);
+    myMessage = new OSCMessage("/3/DOFToggle", 0 ); 
+    transmitter.Send(myMessage);
+    myMessage = new OSCMessage("/3/CameraTypeToggle/1/2", 0 ); 
+    transmitter.Send(myMessage);
+    myMessage = new OSCMessage("/3/FXMotionBlur", motionBlurAmount ); 
+    transmitter.Send(myMessage);
+
+    myMessage = new OSCMessage("/3/IrisLocationXYPad/x", 0.0f);
+    transmitter.Send(myMessage);
+    myMessage = new OSCMessage("/3/IrisLocationXYPad/y", 0.0f);
+    transmitter.Send(myMessage);
+
+    myMessage = new OSCMessage("/3/IrisTransitionSpeed", 0.2f);
+    transmitter.Send(myMessage);
+    irisDiameter(.2f);
+
+    myMessage = new OSCMessage("/3/ManualFadeSlider/x", 0.0f);
+    transmitter.Send(myMessage);
+    // set all object scales to 1
+
+    // init captions list
+    initCaptionList();
